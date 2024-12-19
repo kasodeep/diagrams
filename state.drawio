@@ -1,0 +1,189 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.9.0">
+  <diagram name="Page-1" id="GKC3YghGGvQF9_26sn8u">
+    <mxGraphModel dx="2694" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="OEH8DmnFNW2zETwIc_QG-1" value="" style="ellipse;fillColor=strokeColor;" vertex="1" parent="1">
+          <mxGeometry x="171" y="20" width="14" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="OEH8DmnFNW2zETwIc_QG-2" value="Idle" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="157" y="84" width="43" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="OEH8DmnFNW2zETwIc_QG-3" value="Browsing" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="138" y="192" width="80" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="OEH8DmnFNW2zETwIc_QG-4" value="AddingToCart" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="122" y="300" width="113" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="OEH8DmnFNW2zETwIc_QG-5" value="Checkout" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="136" y="408" width="83" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="OEH8DmnFNW2zETwIc_QG-6" value="PaymentProcessing" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="20" y="516" width="151" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="OEH8DmnFNW2zETwIc_QG-7" value="PaymentFailed" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="35" y="624" width="121" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="OEH8DmnFNW2zETwIc_QG-8" value="PaymentSuccessful" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="206" y="624" width="151" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="OEH8DmnFNW2zETwIc_QG-9" value="OrderPlaced" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="229" y="732" width="105" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="OEH8DmnFNW2zETwIc_QG-10" value="PreparingOrder" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="140" y="858" width="126" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="OEH8DmnFNW2zETwIc_QG-11" value="OutForDelivery" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="116" y="966" width="125" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="OEH8DmnFNW2zETwIc_QG-12" value="Delivered" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="136" y="1074" width="84" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="OEH8DmnFNW2zETwIc_QG-13" value="" style="ellipse;shape=endState;fillColor=strokeColor;" vertex="1" parent="1">
+          <mxGeometry x="264" y="1398" width="14" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="OEH8DmnFNW2zETwIc_QG-14" value="Cancelled" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="458" y="966" width="87" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="OEH8DmnFNW2zETwIc_QG-15" value="ReturnInitiated" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="184" y="1182" width="125" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="OEH8DmnFNW2zETwIc_QG-16" value="Returned" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="206" y="1290" width="81" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="OEH8DmnFNW2zETwIc_QG-17" value="" style="curved=1;startArrow=none;;exitX=0.51;exitY=1;entryX=0.49;entryY=0;rounded=0;" edge="1" parent="1" source="OEH8DmnFNW2zETwIc_QG-1" target="OEH8DmnFNW2zETwIc_QG-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OEH8DmnFNW2zETwIc_QG-18" value="Open App" style="curved=1;startArrow=none;;exitX=0.49;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="OEH8DmnFNW2zETwIc_QG-2" target="OEH8DmnFNW2zETwIc_QG-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OEH8DmnFNW2zETwIc_QG-19" value="Select Item" style="curved=1;startArrow=none;;exitX=0.26;exitY=1;entryX=0.32;entryY=0;rounded=0;" edge="1" parent="1" source="OEH8DmnFNW2zETwIc_QG-3" target="OEH8DmnFNW2zETwIc_QG-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="117" y="264" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OEH8DmnFNW2zETwIc_QG-20" value="Add More Items" style="curved=1;startArrow=none;;exitX=0.67;exitY=0;entryX=0.75;entryY=1;rounded=0;" edge="1" parent="1" source="OEH8DmnFNW2zETwIc_QG-4" target="OEH8DmnFNW2zETwIc_QG-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="239" y="264" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OEH8DmnFNW2zETwIc_QG-21" value="Proceed to Checkout" style="curved=1;startArrow=none;;exitX=0.5;exitY=1;entryX=0.51;entryY=0;rounded=0;" edge="1" parent="1" source="OEH8DmnFNW2zETwIc_QG-4" target="OEH8DmnFNW2zETwIc_QG-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OEH8DmnFNW2zETwIc_QG-22" value="Choose Payment Method" style="curved=1;startArrow=none;;exitX=0.18;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="OEH8DmnFNW2zETwIc_QG-5" target="OEH8DmnFNW2zETwIc_QG-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="95" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OEH8DmnFNW2zETwIc_QG-23" value="Payment Error" style="curved=1;startArrow=none;;exitX=0.34;exitY=1;entryX=0.3;entryY=0;rounded=0;" edge="1" parent="1" source="OEH8DmnFNW2zETwIc_QG-6" target="OEH8DmnFNW2zETwIc_QG-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="22" y="588" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OEH8DmnFNW2zETwIc_QG-24" value="Retry Payment" style="curved=1;startArrow=none;;exitX=1;exitY=0.08;entryX=1.01;entryY=0.96;rounded=0;" edge="1" parent="1" source="OEH8DmnFNW2zETwIc_QG-7" target="OEH8DmnFNW2zETwIc_QG-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="317" y="588" />
+              <mxPoint x="317" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OEH8DmnFNW2zETwIc_QG-25" value="Payment Confirmed" style="curved=1;startArrow=none;;exitX=0.73;exitY=1;entryX=0.33;entryY=0;rounded=0;" edge="1" parent="1" source="OEH8DmnFNW2zETwIc_QG-6" target="OEH8DmnFNW2zETwIc_QG-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="203" y="588" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OEH8DmnFNW2zETwIc_QG-26" value="Place Order" style="curved=1;startArrow=none;;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="OEH8DmnFNW2zETwIc_QG-8" target="OEH8DmnFNW2zETwIc_QG-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OEH8DmnFNW2zETwIc_QG-27" value="Restaurant Confirms Order / Item Packed" style="curved=1;startArrow=none;;exitX=0.29;exitY=1;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="OEH8DmnFNW2zETwIc_QG-9" target="OEH8DmnFNW2zETwIc_QG-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="203" y="812" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OEH8DmnFNW2zETwIc_QG-28" value="Pickup by Delivery Agent" style="curved=1;startArrow=none;;exitX=0.43;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="OEH8DmnFNW2zETwIc_QG-10" target="OEH8DmnFNW2zETwIc_QG-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="178" y="929" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OEH8DmnFNW2zETwIc_QG-29" value="Item Delivered" style="curved=1;startArrow=none;;exitX=0.5;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="OEH8DmnFNW2zETwIc_QG-11" target="OEH8DmnFNW2zETwIc_QG-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OEH8DmnFNW2zETwIc_QG-30" value="Order Completed" style="curved=1;startArrow=none;;exitX=0.24;exitY=0.99;entryX=0.01;entryY=0.34;rounded=0;" edge="1" parent="1" source="OEH8DmnFNW2zETwIc_QG-12" target="OEH8DmnFNW2zETwIc_QG-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="109" y="1145" />
+              <mxPoint x="109" y="1361" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OEH8DmnFNW2zETwIc_QG-31" value="User Cancels Order" style="curved=1;startArrow=none;;exitX=1;exitY=0.82;entryX=0.76;entryY=-0.01;rounded=0;" edge="1" parent="1" source="OEH8DmnFNW2zETwIc_QG-9" target="OEH8DmnFNW2zETwIc_QG-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="571" y="812" />
+              <mxPoint x="571" y="929" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OEH8DmnFNW2zETwIc_QG-32" value="Restaurant Cancels Order" style="curved=1;startArrow=none;;exitX=0.99;exitY=0.92;entryX=0.23;entryY=-0.01;rounded=0;" edge="1" parent="1" source="OEH8DmnFNW2zETwIc_QG-10" target="OEH8DmnFNW2zETwIc_QG-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="429" y="929" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OEH8DmnFNW2zETwIc_QG-33" value="Refund Processed" style="curved=1;startArrow=none;;exitX=0.5;exitY=0.99;entryX=1.01;entryY=0.38;rounded=0;" edge="1" parent="1" source="OEH8DmnFNW2zETwIc_QG-14" target="OEH8DmnFNW2zETwIc_QG-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="501" y="1361" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OEH8DmnFNW2zETwIc_QG-34" value="User Requests Return" style="curved=1;startArrow=none;;exitX=0.76;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="OEH8DmnFNW2zETwIc_QG-12" target="OEH8DmnFNW2zETwIc_QG-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="247" y="1145" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OEH8DmnFNW2zETwIc_QG-35" value="Item Returned" style="curved=1;startArrow=none;;exitX=0.5;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="OEH8DmnFNW2zETwIc_QG-15" target="OEH8DmnFNW2zETwIc_QG-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OEH8DmnFNW2zETwIc_QG-36" value="Refund Processed" style="curved=1;startArrow=none;;exitX=0.5;exitY=0.99;entryX=0.23;entryY=-0.03;rounded=0;" edge="1" parent="1" source="OEH8DmnFNW2zETwIc_QG-16" target="OEH8DmnFNW2zETwIc_QG-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="247" y="1361" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

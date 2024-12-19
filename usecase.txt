@@ -1,0 +1,26 @@
+Usecase:
+	A use case diagram is a visual representation in UML (Unified Modeling Language) that describes the interactions between a system and its external entities (actors).
+	It outlines the system's functional requirements by showing how actors interact with use cases (specific tasks or functions) to achieve a goal.
+
+Key Components of a Use Case Diagram:
+	Actors:
+		Represent external entities that interact with the system.
+		Can be a person, another system, or an organization.
+		They are depicted as stick figures.
+		Primary actors initiate interactions, while secondary actors support the use case.
+
+	Use Cases:
+		Represent the actions or services the system performs in response to actors.
+		They are depicted as ovals, with the name of the action inside the oval.
+		Each use case should describe an observable result from the actor's perspective.
+
+	System Boundary:
+		Defines the scope of the system and what’s included or excluded.
+		Everything within the boundary represents what the system will handle.
+		The boundary is represented by a rectangle that encloses the use cases.
+
+	Relationships:
+		Association: Connects actors to use cases, showing which actor is involved in which use case.
+		Include: A use case that is always performed as part of another use case.
+		Extend: A use case that is optionally triggered by another use case.
+		Generalization: Shows inheritance between actors or use cases.

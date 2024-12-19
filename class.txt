@@ -1,0 +1,52 @@
+Class Diagram: 
+	A class diagram is a type of static structure diagram that describes the structure of a system by showing the system’s classes, their attributes, operations (or methods), and the relationships among objects. It is a graphical notation used to construct and visualize object-oriented systems.
+
+Components:
+
+Classes:
+	Represent the blueprint of objects in the system.
+	Depicted as rectangles divided into three compartments:
+		Top: Class name (in bold and capitalized).
+		Middle: Attributes (properties or fields).
+		Bottom: Methods (operations or functions).
+	Example:
+
+Attributes:
+	Define the properties or data members of the class.
+	+ (public), - (private), # (protected), ~ (package).
+
+Methods:
+	Define the behavior or operations of the class.
+	Syntax: visibility name(parameters): return type
+
+Relationships: 
+	Relationships indicate how classes interact or are connected.
+
+Association: 
+	Represents a "uses" or "has-a" relationship.
+
+Aggregation: 
+	A specialized association where one class is part of another but can exist independently.
+	Example: 
+		A Department can have multiple Professors, but professors can exist without the department.
+	Notation: 
+		A line with a hollow diamond.
+
+Composition: 
+	A strong aggregation where one class is entirely dependent on another.
+	Example: 
+		A House contains Rooms, and if the house is destroyed, the rooms also cease to exist.
+	Notation: 
+		A line with a filled diamond.
+
+Inheritance: 
+	Represents a "is-a" relationship (generalization).
+	Example: 
+		A Dog is a subclass of Animal.
+	Notation: 
+		A solid line with a hollow triangle pointing to the superclass.
+
+Realization: 
+	Shows an implementation relationship between an interface and a class.
+	Notation: 
+		A dashed line with a hollow triangle pointing to the interface.

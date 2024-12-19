@@ -1,0 +1,39 @@
+DFD:
+	A data flow diagram (DFD) is a graphical representation that depicts how data flows through a system. 
+	It's widely used in software engineering and systems analysis to illustrate the pathways data takes from its source to its destination, including processes, storage, and external entities.
+
+Components of a Data Flow Diagram:
+	Processes: 
+		Represent functions or transformations that process data. 
+		They are typically depicted as circles or rectangles with labels describing the function they perform.
+
+	Data Flows: 
+		Arrows that represent the movement of data between processes, data stores, and external entities. 
+		They show the direction of data flow and what data is being exchanged.
+
+	Data Stores: 
+		Represent where data is held within the system. 
+		These can be databases, files, or any storage medium. 
+		They are often depicted as open-ended rectangles.
+
+	External Entities: 
+		Represent sources or destinations of data outside the system being modeled.
+		These could be users, other systems, or devices that interact with the system. 
+		They are often depicted as squares.
+
+Types of DFDs:
+	Logical DFDs: 
+		Focus on the flow of data and processes, without considering physical implementation details.
+	
+	Physical DFDs: 
+		Illustrate the actual hardware and software components involved in data processing and storage.
+
+Benefits:
+	Improved Understanding: 
+		DFDs help identify data flows, bottlenecks, and potential issues in a system.
+	
+	Enhanced Security: 
+		By visualizing data paths, DFDs can reveal vulnerabilities and aid in securing data.
+	
+	Process Optimization: 
+		DFDs facilitate analysis and improvement of business processes.

@@ -1,0 +1,42 @@
+State Diagram;
+	A State Diagram, also known as a State Machine Diagram or UML State Machine Diagram, is a graphical representation of a system’s behavior, focusing on the different states an object or entity can be in, and how it transitions between those states in response to events.
+
+Components:
+
+State:
+	A state represents a condition or situation during the life of an object.
+	Notation: 
+		Rounded rectangle with the name of the state written inside.
+	Example: Idle, Processing, Completed.
+
+	Initial State:
+		Represents the starting point of the diagram.
+		Every state diagram must have one initial state.
+		Notation: 
+			A filled black circle.
+
+	Final State:
+		Represents the end of the state machine.
+		Notation: 
+			A black circle with a surrounding hollow circle.
+
+Transition:
+	A transition is a movement from one state to another triggered by an event or condition.
+	Notation: 
+		Arrow between states labeled with the event causing the transition.
+	Syntax: 
+		Event [Guard Condition] / Action
+
+Events:
+	Represent occurrences that trigger state transitions.
+	Example: Button press, timeout, receiving a message.
+
+Actions:
+	Represent activities performed during a transition or while in a state.
+
+Composite States:
+	States can contain nested sub-states.
+	Useful for modeling complex systems.
+
+Self-Transition:
+	A transition that leads back to the same state.
