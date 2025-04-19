@@ -1,4 +1,4 @@
- Component Diagram: 
+ Component Diagram:
  	A component diagram is a type of diagram used in Unified Modeling Language (UML) to depict how components are wired together to form larger components or software systems.
  	It illustrates the structure of complex systems and is used to verify that a system’s required functionality is acceptable.
 
@@ -6,10 +6,10 @@ Component:
 	A modular part of the system, like software modules, libraries, executables, or packages.
 	Represented by a rectangle with the keyword <<component>> or a rectangle with two smaller rectangles on its left side.
 
-	Provided Interfaces: 
+	Provided Interfaces:
 		Represented with a lollipop symbol, showing services offered by the component.
-	
-	Required Interfaces: 
+
+	Required Interfaces:
 		Represented with a socket symbol, showing dependencies on other components.
 
 Node:

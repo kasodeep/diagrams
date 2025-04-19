@@ -1,5 +1,5 @@
 Sequence Diagram:
-	A Sequence Diagram is a UML diagram that visualizes the flow of messages, events, or interactions between objects in a system over time. 
+	A Sequence Diagram is a UML diagram that visualizes the flow of messages, events, or interactions between objects in a system over time.
 	It is commonly used to model dynamic behavior, focusing on how objects interact to achieve a specific use case or functionality.
 
 Components:
@@ -11,11 +11,11 @@ Lifeline:
 Messages:
 	Represent communication between lifelines.
 	Types of messages:
-		Synchronous Message: 
+		Synchronous Message:
 			Requires a response (solid arrow with filled head).
 		Asynchronous Message:
 			Doesn't require a response (solid arrow with open head).
-		Return Message: 
+		Return Message:
 			Denotes the return of control (dashed arrow).
 
 Activation Bar:
